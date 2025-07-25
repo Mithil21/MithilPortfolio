@@ -31,7 +31,12 @@ const profiles = [
 
 function Home() {
   return (
-    <div className="profile-selector netflix-bg">
+    <div className="profile-selector" style={{
+      background: 'linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url("https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd6/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_large.jpg")',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundAttachment: 'fixed'
+    }}>
       <div className="text-center mb-16">
         <h1 className="text-6xl font-bold text-red-600 mb-4 tracking-wider">Mithil's Portfolio</h1>
         <h2 className="text-3xl font-light mb-2">Who's exploring today?</h2>
@@ -73,18 +78,11 @@ function Home() {
             Hi, I'm Mithil Baria — a Full Stack Developer with 5+ years of experience building scalable Java and Angular applications. 
             I specialize in Spring Boot, JavaScript frameworks, and security-centric systems like User Behavior Analytics (UBA).
           </p>
-          <p className="text-gray-300 leading-relaxed mb-6">
+          <p className="text-gray-300 leading-relaxed">
             I'm passionate about combining clean code, system design, and AI-enhanced solutions to solve real-world problems. 
             Whether it's detecting threats offline, building RAG engines, or creating seamless user experiences — I love working 
             at the intersection of backend, frontend, and machine learning.
           </p>
-          <a 
-            href="/resume.pdf" 
-            download 
-            className="inline-flex items-center bg-red-600 hover:bg-red-700 px-8 py-3 rounded-lg text-lg font-semibold transition-colors"
-          >
-            📄 Download Resume
-          </a>
         </div>
       </div>
     </div>
