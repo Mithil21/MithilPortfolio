@@ -8,16 +8,18 @@ const projects = [
     category: "AI & E-commerce",
     link:"https://github.com/Mithil21/FakeReviewDetection",
     year: "2024",
-    status: "Live"
+    status: "Live",
+    tags:["AI & Machine Learning","Frontend Development"]
   },
   {
     title: "Memory Matrix",
-    tech: ["Python", "Flask", "Vector DB(FIASS)","Transformers"],
+    tech: ["Python", "Flask", "Vector DB(FAISS)","Transformers"],
     description: "In large organizations, developers often rebuild similar functionalities from scratch (e.g., login, file upload, validation) — leading to duplicated effort and long testing cycles. This app reduces that by reusing tested code snippets from past applications.",
     category: "AI & NLP",
     link:"https://github.com/Mithil21/MemoryMatrix",
     year: "2025",
-    status: "Production"
+    status: "Production",
+    tags:["AI & Machine Learning","Frontend Development"]
   },
   {
     title: "Url Shortner",
@@ -26,7 +28,8 @@ const projects = [
     link:"https://github.com/Mithil21/URLShortnerOnDocker",
     category: "Backend & DevOps",
     year: "2025",
-    status: "Production"
+    status: "Production",
+    tags:["Backend Development","Cloud & DevOps","Database & Storage"]
   }
 ];
 
@@ -71,6 +74,14 @@ function Projects() {
                     {project.tech.map((t, j) => (
                       <span key={j} className="bg-gray-700 text-xs px-2 py-1 rounded">{t}</span>
                     ))}
+                  </div>
+                  <div className="mb-3">
+                    <p className="text-xs text-gray-400 mb-1">Skills Used:</p>
+                    <div className="flex flex-wrap gap-1">
+                      {project.tags.map((tag, k) => (
+                        <span key={k} className="bg-red-600 bg-opacity-20 border border-red-600 text-red-400 text-xs px-2 py-1 rounded">{tag}</span>
+                      ))}
+                    </div>
                   </div>
                   <a 
                     href={project.link} 

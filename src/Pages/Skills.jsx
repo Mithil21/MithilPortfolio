@@ -8,7 +8,7 @@ const skillCategories = [
   },
   {
     category: "Frontend Development", 
-    skills: ["Angular", "React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind"],
+    skills: ["Angular", "React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind","Streamlit"],
     icon: "🎨"
   },
   {
@@ -75,7 +75,7 @@ function Skills() {
           <h2 className="text-2xl font-semibold mb-8">Core Competencies</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="netflix-card p-6 rounded-lg">
-              <h3 className="text-lg font-semibold mb-4 text-red-400">Expert Level</h3>
+              <h3 className="text-lg font-semibold mb-4 text-red-400">Advance Level</h3>
               <div className="space-y-2">
                 {["Java", "Spring Boot", "Angular", "Security Research"].map((skill, i) => (
                   <div key={i} className="flex justify-between items-center">
@@ -88,7 +88,7 @@ function Skills() {
               </div>
             </div>
             <div className="netflix-card p-6 rounded-lg">
-              <h3 className="text-lg font-semibold mb-4 text-red-400">Advanced Level</h3>
+              <h3 className="text-lg font-semibold mb-4 text-red-400">Beginner to Intermediate Level</h3>
               <div className="space-y-2">
                 {["React", "Python", "AWS", "Machine Learning"].map((skill, i) => (
                   <div key={i} className="flex justify-between items-center">

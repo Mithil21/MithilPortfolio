@@ -33,9 +33,9 @@ function Home() {
   return (
     <div className="profile-selector">
       <div className="text-center mb-16">
-        <h1 className="text-6xl font-bold text-red-600 mb-4 tracking-wider">Mithils Portfolio</h1>
+        <h1 className="text-6xl font-bold text-red-600 mb-4 tracking-wider">Mithil's Portfolio</h1>
         <h2 className="text-3xl font-light mb-2">Who's exploring today?</h2>
-        <p className="text-gray-400">Mithil Baria - Full Stack/LLM Developer & Security Researcher</p>
+        {/* <p className="text-gray-400">Mithil Baria - Full Stack/LLM Developer & Security Researcher</p> */}
       </div>
       
       <div className="flex flex-wrap justify-center gap-8 mb-12">

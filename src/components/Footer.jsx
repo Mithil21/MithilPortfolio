@@ -6,7 +6,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold text-red-600 mb-4">MITHILFLIX</h3>
+            <h3 className="text-xl font-bold text-red-600 mb-4">MITFLIX</h3>
             <p className="text-gray-400 text-sm">
               A Netflix-inspired portfolio showcasing full-stack development, 
               AI innovation, and security research expertise.
@@ -24,10 +24,10 @@ function Footer() {
           <div>
             <h4 className="font-semibold mb-3 text-gray-300">Connect</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="mailto:mithilbaria@example.com" className="hover:text-white transition-colors">Email</a></li>
-              <li><a href="https://linkedin.com/in/mithilbaria" className="hover:text-white transition-colors">LinkedIn</a></li>
-              <li><a href="https://github.com/mithilbaria" className="hover:text-white transition-colors">GitHub</a></li>
-              <li><a href="/contact" className="hover:text-white transition-colors">Contact</a></li>
+              <li><a href="mailto:mithilbaria98@gmail.com" className="hover:text-white transition-colors">Email</a></li>
+              <li><a href="https://www.linkedin.com/in/mithil-baria-887347173/" className="hover:text-white transition-colors">LinkedIn</a></li>
+              <li><a href="https://github.com/Mithil21" className="hover:text-white transition-colors">GitHub</a></li>
+              {/* <li><a href="/contact" className="hover:text-white transition-colors">Contact</a></li> */}
             </ul>
           </div>
           <div>
