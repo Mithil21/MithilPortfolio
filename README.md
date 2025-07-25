@@ -5,13 +5,8 @@ Welcome to **MithilFlix**, a custom-built developer portfolio styled like Netfli
 ---
 
 ## 🚀 Live Demo
-[🔗 Visit the Portfolio](https://your-deployed-link.vercel.app) *(replace with your link)*
+[🔗 Visit the Portfolio](https://mithil-portfolio-seven.vercel.app/) *(replace with your link)*
 
----
-
-## 📸 Preview
-
-![MithilFlix Preview](./public/preview.png) *(Optional: Add a screenshot)*
 
 ---
 
