@@ -73,11 +73,18 @@ function Home() {
             Hi, I'm Mithil Baria — a Full Stack Developer with 5+ years of experience building scalable Java and Angular applications. 
             I specialize in Spring Boot, JavaScript frameworks, and security-centric systems like User Behavior Analytics (UBA).
           </p>
-          <p className="text-gray-300 leading-relaxed">
+          <p className="text-gray-300 leading-relaxed mb-6">
             I'm passionate about combining clean code, system design, and AI-enhanced solutions to solve real-world problems. 
             Whether it's detecting threats offline, building RAG engines, or creating seamless user experiences — I love working 
             at the intersection of backend, frontend, and machine learning.
           </p>
+          <a 
+            href="/resume.pdf" 
+            download 
+            className="inline-flex items-center bg-red-600 hover:bg-red-700 px-8 py-3 rounded-lg text-lg font-semibold transition-colors"
+          >
+            📄 Download Resume
+          </a>
         </div>
       </div>
     </div>
