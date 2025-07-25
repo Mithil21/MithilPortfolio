@@ -22,7 +22,7 @@ const projects = [
     tags:["AI & Machine Learning","Frontend Development"]
   },
   {
-    title: "Url Shortner",
+    title: "URL Shortner",
     tech: ["Java", "Docker", "Redis","Spring Boot", "PLSQL"],
     description: "This project implements a highly available and scalable URL shortening microservice, similar to TinyURL. It allows users to convert long, unwieldy URLs into short, memorable ones, and then redirects users from the short URL back to the original. Built using Spring Boot, PostgreSQL for robust data persistence, and Redis for high-performance caching, the application stack is fully containerized using Docker and orchestrated with Docker Compose, following modern microservice best practices.",
     link:"https://github.com/Mithil21/URLShortnerOnDocker",
